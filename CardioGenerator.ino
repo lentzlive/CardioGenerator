@@ -90,5 +90,6 @@ void loop() {
   for (i = 0; i < 543; i++)
   {
     dac.setVoltage(pgm_read_word(&(DACLookup_Cardio_9Bit[i])), false);
+    delay(2); // Ritardo di 2 ms 
   }
 }
