@@ -18,5 +18,5 @@ There's two other pins remaining.
 <br>
 - VOUT is the voltage out from the DAC! The voltage will range from 0V (when the DAC value is 0) to VDD (when the DAC 'value' is the max 12-bit number: 0xFFF)
 <br><br>
-<h1>Schema circuito</h1>
+<h1>Schema</h1>
 <img width="400" src="https://github.com/lentzlive/CardioGenerator/blob/master/MCP4725_Arduino_bb.png" />
