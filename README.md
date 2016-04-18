@@ -17,5 +17,6 @@ There's two other pins remaining.
 - A0 allow you to change the I2C address. By default (nothing attached to A0) the address is hex 0x62. If A0 is connected to VDD the address is 0x63. This lets you have two DAC boards connected to the same SDA/SCL I2C bus pins.
 <br>
 - VOUT is the voltage out from the DAC! The voltage will range from 0V (when the DAC value is 0) to VDD (when the DAC 'value' is the max 12-bit number: 0xFFF)
-<br><br><br>
+<br><br>
+<h1>Schema circuito</h1>
 <img width="400" src="https://github.com/lentzlive/CardioGenerator/blob/master/MCP4725_Arduino_bb.png" />
